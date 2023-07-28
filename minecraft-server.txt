@@ -28,3 +28,8 @@ java -jar server.jar
 sudo su - minecraft
 cd ~/server
 java -jar server.jar
+
+
+# Accessing the server
+# Once the installation is done, you should be able to access your server locally using "localhost", or you local ip ("192.168.x.y").
+# To access it outside your own network, you'll need to redirect port 25565 (by default).
