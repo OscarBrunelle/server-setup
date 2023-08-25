@@ -2,7 +2,9 @@
 # Web server url: http://localhost:8096/web/index.html
 
 app_name="Jellyfin"
+echo "##########"
 echo "Configuring '${app_name}'"
+echo "##########"
 
 # if the server webpage shows nothing
 
@@ -12,4 +14,6 @@ sudo apt update
 sudo apt install jellyfin-web
 sudo systemctl restart jellyfin.services
 
+echo "##########"
 echo "Successfully configured '${app_name}'"
+echo "##########"
