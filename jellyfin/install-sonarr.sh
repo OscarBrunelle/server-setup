@@ -1,7 +1,9 @@
 #!/usr/bin/env bash
 
 app_name="Sonarr"
+echo "##########"
 echo "Installing '${app_name}'"
+echo "##########"
 
 wget -O - "https://github.com/OscarBrunelle/server-setup/raw/main/jellyfin/install-mono.sh" | bash
 wget -O - "https://github.com/OscarBrunelle/server-setup/raw/main/jellyfin/install-mediainfo.sh" | bash
@@ -11,4 +13,8 @@ echo "deb https://apt.sonarr.tv/debian buster main" | sudo tee /etc/apt/sources.
 sudo apt update
 sudo apt install sonarr
 
+echo "##########"
 echo "Successfully installed '${app_name}'"
+echo "##########"
+
+wget -O - "https://github.com/OscarBrunelle/server-setup/raw/main/jellyfin/configure-sonarr.sh" | bash
