@@ -13,9 +13,9 @@ sudo gpg --homedir /tmp --no-default-keyring --keyring /usr/share/keyrings/mono-
 echo "deb [signed-by=/usr/share/keyrings/mono-official-archive-keyring.gpg] https://download.mono-project.com/repo/debian stable-buster main" | sudo tee /etc/apt/sources.list.d/mono-official-stable.list
 sudo apt update
 
-wget http://ftp.br.debian.org/debian/pool/main/libj/libjpeg-turbo/libjpeg62-turbo_1.4.1-2_amd64.deb
-wget http://ftp.br.debian.org/debian/pool/main/libj/libjpeg6b/libjpeg62_6b2-2_amd64.deb
-sudo dpkg --install --recursive --auto-deconfigure libjpeg62-turbo_1.4.1-2_amd64.deb
+wget http://ftp.br.debian.org/debian/pool/main/libj/libjpeg-turbo/libjpeg62-turbo_2.1.5-2_amd64.deb
+wget http://ftp.br.debian.org/debian/pool/main/libj/libjpeg6b/libjpeg62_6b2-3.1_amd64.deb
+sudo dpkg --install --recursive --auto-deconfigure libjpeg62-turbo_2.1.5-2_amd64.deb
 apt-get update
 sudo apt-get -f install
 
