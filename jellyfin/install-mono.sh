@@ -18,7 +18,6 @@ wget http://ftp.br.debian.org/debian/pool/main/libj/libjpeg6b/libjpeg62_6b2-3.1_
 sudo apt install "/home/server/libjpeg62-turbo_2.1.5-2_amd64.deb"
 sudo apt install "/home/server/libjpeg62_6b2-3.1_amd64.deb"
 sudo apt-get update
-sudo apt-get -f install
 
 sudo apt install mono-devel
 sudo apt install monodevelop
