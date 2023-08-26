@@ -14,6 +14,7 @@ wget -O - "https://github.com/OscarBrunelle/server-setup/raw/main/jellyfin/insta
 wget -O - "https://github.com/OscarBrunelle/server-setup/raw/main/jellyfin/install-sonarr.sh" | bash
 wget -O - "https://github.com/OscarBrunelle/server-setup/raw/main/jellyfin/install-jackett.sh" | bash
 
+sudo rm /home/server/*.deb*
 ifconfig
 
 echo "##########"
