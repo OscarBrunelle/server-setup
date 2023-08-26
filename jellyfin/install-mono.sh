@@ -15,7 +15,7 @@ sudo apt update
 
 wget http://ftp.br.debian.org/debian/pool/main/libj/libjpeg-turbo/libjpeg62-turbo_2.1.5-2_amd64.deb
 wget http://ftp.br.debian.org/debian/pool/main/libj/libjpeg6b/libjpeg62_6b2-3.1_amd64.deb
-sudo dpkg --install --recursive --auto-deconfigure libjpeg62-turbo_2.1.5-2_amd64.deb
+sudo dpkg --install --recursive --auto-deconfigure /home/server/libjpeg62-turbo_2.1.5-2_amd64.deb
 apt-get update
 sudo apt-get -f install
 
