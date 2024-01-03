@@ -1,6 +1,9 @@
 #!/usr/bin/env bash
 # execute this script from the terminal:
-# wget -O - "https://github.com/OscarBrunelle/server-setup/raw/main/jellyfin/install-all.sh" | bash
+# cd ~/Downloads
+# mkdir jellyfin_installation_files
+# cd ~/Downloads/jellyfin_installation_files
+# wget -O "install-all.sh" "https://github.com/OscarBrunelle/server-setup/raw/main/jellyfin/install-all.sh"
 
 echo "##########"
 echo "Installing Jellyfin server's needed components"
