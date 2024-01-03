@@ -7,7 +7,7 @@ echo "Configuring '${app_name}'"
 echo "##########"
 
 # If can't select dl folder
-sudo chown -R sonarr:sonarr /media
+sudo chown -R sonarr:media_server /media
 
 # If needed to start / stop the service
 # sudo systemctl start sonarr.service
