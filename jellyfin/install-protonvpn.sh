@@ -7,7 +7,7 @@ echo "Installing '${app_name}'"
 echo "##########"
 
 sudo apt install -y openvpn dialog python3-pip python3-setuptools
-sudo pip3 install protonvpn-cli
+pip3 install protonvpn-cli
 sudo protonvpn init
 sudo protonvpn connect
 
